@@ -1,15 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Find_greatest_among_2_numbers
+﻿/*
+ * C# Program to Find Greatest among 2 numbers
+ */
+using System;
+class prog
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
+        int a, b;
+        Console.WriteLine("Enter the Two Numbers : ");
+        a = Convert.ToInt32(Console.ReadLine());
+        b = Convert.ToInt32(Console.ReadLine());
+        if (a > b)
         {
+            Console.WriteLine("{0} is the Greatest Number", a);
         }
+        else
+        {
+            Console.WriteLine("{0} is the Greatest Number ", b);
+        }
+        Console.ReadLine();
     }
 }
+/*
+Enter the Two Numbers :
+56
+62
+62 is the Greatest Number
+
+Press any key to continue . . .
+*/
